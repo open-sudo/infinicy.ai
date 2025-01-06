@@ -18,7 +18,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        min-height: 100vh;
+        height: 100vh;
         background-color: #ffffff;
         text-align: center;
         padding: 0 20px;
@@ -61,61 +61,18 @@
 
       .whatsapp_image {
         height: 110px;
+
         margin-top: 15px;
       }
-
       .youtube_image {
         width: 100%;
         height: 87px;
-      }
-
-      /* Responsive styles */
-      @media (max-width: 768px) {
-        body {
-          padding: 20px;
-        }
-
-        .description {
-          font-size: 20px;
-          line-height: 30px;
-          margin-bottom: 50px;
-        }
-
-        .button-container {
-          flex-direction: column;
-          gap: 15px;
-        }
-
-        .whatsapp_image {
-          width: 100%;
-          height: auto;
-        }
-
-        .youtube_image {
-          height: auto;
-          width: 100%;
-        }
-      }
-
-      @media (max-width: 480px) {
-        .description {
-          font-size: 18px;
-          line-height: 28px;
-        }
-
-        .logo {
-          margin-bottom: 40px;
-        }
-
-        .button-container {
-          gap: 10px;
-        }
       }
     </style>
   </head>
 
   <body>
-  <div class="root"> 
+    <div class="root">
       <img src="logo.svg" alt="Infinicy Logo" class="logo" />
       <p class="description">
         Curates memories of loved ones into collaborative  living
@@ -131,7 +88,5 @@
         </a>
       </div>
     </div>
-
-
   </body>
 </html>
